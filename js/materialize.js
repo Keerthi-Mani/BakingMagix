@@ -15,23 +15,6 @@ M.Slider.init(slider, {
 const ScrollSpy = document.querySelectorAll(".scrollspy");
 M.ScrollSpy.init(ScrollSpy, {});
 
-//Autocomplete
-const autoComplete = document.querySelector(".autocomplete");
-M.Autocomplete.init(autoComplete, {
-  data: {
-    Aruba: null,
-    "Cancun Mexico": null,
-    Hawaii: null,
-    Florida: null,
-    California: null,
-    Jamacia: null,
-    Europe: null,
-    "The Bahamas": null,
-    China: null,
-    India: null
-  }
-});
-
 // Material Boxed
 const materialBoxed = document.querySelectorAll(".materialboxed");
 M.Materialbox.init(materialBoxed, {});
