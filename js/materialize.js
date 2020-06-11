@@ -4,9 +4,9 @@ const sideNav = document.querySelector(".sidenav");
 M.Sidenav.init(sideNav, {});
 
 //Side Gallery Menu
-const galleryNav = document.querySelector(".gallerynav");
+// const galleryNav = document.querySelector(".gallerynav");
 //Materialize js library - use M
-M.Sidenav.init(galleryNav, {});
+// M.Sidenav.init(galleryNav, {});
 
 //Slider
 const slider = document.querySelector(".slider");
